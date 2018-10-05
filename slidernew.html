@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>sliderControl</title>
+    <link rel="stylesheet" href="slidermain.css">
+    <link type="text/css" href="../AAAMyLibrary/bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet">
+    <script src="../AAAMyLibrary/jquery-3.1.0.min.js"></script>
+
+</head>
+<body>
+<div class="inputDiv">
+    <label for="min">Min</label>
+    <input id="min" type="text">
+    <label for="max">Max</label>
+    <input id="max" type="text"><button style="position: absolute" class="btn btn-danger" onclick="showAndSetSlider()">create Slider</button>
+</div>
+
+
+<div id="sliderDiv" style="display: none">
+<div class="sliderTrackContainer" >
+    <div class="sliderTrack"></div>
+    <div class="sliderThumb" ></div>
+</div>
+    <div class="outputDiv maxDiv "></div>
+    <div class="outputDiv rangeDiv"></div>
+    <div class="outputDiv  minDiv"></div>
+</div>
+<script rel="script" type="text/javascript" src="dragHandler.js"></script>
+<script rel="script" type="text/javascript" src="slidernew.js"></script>
+</body>
+</html>

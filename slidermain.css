@@ -1,0 +1,57 @@
+
+.sliderTrackContainer{
+    width: 487px;
+    height: 10px;
+    position: relative;
+    background: lightgray;
+    border-radius: 5px;
+}
+
+.sliderThumb {
+    width: 15px;
+    height: 24px;
+    border-radius: 5px;
+    position: absolute;
+    background: orangered;
+    top: -7px;
+    left: 0;
+    padding: 0;
+
+}
+.sliderTrack{
+    width: 0;
+    height: 100%;
+    background: limegreen;
+
+}
+
+.inputDiv {
+    width: 597px;
+    height: 59px;
+    margin: 134px auto 100px;
+}
+
+.btn {
+    margin-left: 20px;
+}
+
+.outputDiv {
+    width: 20px;
+    height: 5px;
+    margin-top: 15px;
+}
+
+.maxDiv {
+    float: right;
+}
+
+#sliderDiv {
+    width: 561px;
+    height: 62px;
+    margin: auto;
+}
+
+.rangeDiv {
+    margin-left: 162px;
+    float: left;
+}
